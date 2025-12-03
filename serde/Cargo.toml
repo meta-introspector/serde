@@ -16,7 +16,7 @@ repository = "https://github.com/serde-rs/serde"
 
 [dependencies]
 serde_core = { version = "=1.0.228", path = "../serde_core", default-features = false, features = ["result"] }
-serde_derive = { version = "1", optional = true, path = "../serde_derive" }
+serde_derive = { workspace = true, optional = true }
 
 [package.metadata.playground]
 features = ["derive", "rc"]
